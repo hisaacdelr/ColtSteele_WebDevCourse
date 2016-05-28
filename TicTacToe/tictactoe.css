@@ -1,0 +1,23 @@
+h1{
+	text-align: center;
+}
+
+/*centers the table to the middle of the screen*/
+table{
+	margin: auto;
+}
+
+td{
+	height: 100px;
+	width: 100px;
+}
+
+.middle-col{
+	border-left: 2px gray solid;
+	border-right: 2px gray solid;
+}
+
+.middle-row{
+	border-top: 2px gray solid;
+	border-bottom: 2px gray solid;
+}
