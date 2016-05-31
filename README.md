@@ -6,5 +6,4 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [x] Pokemon Data Tables Exercise
 - [x] CSS Selector Exercise
 - [x] Tic Tac Toe CSS exercise
-
 - [x] Photo Grid CSS exercise
