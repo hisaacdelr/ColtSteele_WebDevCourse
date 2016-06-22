@@ -16,3 +16,5 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 ###Javascript
 
 - [x] Prompt Exercise using prompt() and console.log()
+- [x] For Loop Exercises
+- [x] While Loop Exercises
