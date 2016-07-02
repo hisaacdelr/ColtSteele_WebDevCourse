@@ -14,7 +14,10 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [x] Landing Page Bootstrap exercise
 
 ###Javascript
-
+**Many solutions to the exercises can be seen by opening the browser console**
 - [x] Prompt Exercise using prompt() and console.log()
 - [x] For Loop Exercises
 - [x] While Loop Exercises
+- [x] Using Functions Problem Set
+- [x] Todo List using Arrays
+- [x] Array Problem Set
