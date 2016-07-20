@@ -21,3 +21,9 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [x] Using Functions Problem Set
 - [x] Todo List using Arrays
 - [x] Array Problem Set
+- [x] Movie Database, practice with creating Objects
+
+####Interacting with the DOM
+- [x] Intro to Selectors (.getElementById, .getElementByTagName, .querySelector, etc.)
+- [x] Selector Exercise
+- [x] Adding Listeners (.addElementListener)
