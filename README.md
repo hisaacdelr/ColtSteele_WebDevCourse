@@ -27,3 +27,4 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [x] Intro to Selectors (.getElementById, .getElementByTagName, .querySelector, etc.)
 - [x] Selector Exercise
 - [x] Adding Listeners (.addElementListener)
+- [x] Score Keeper, using .addEventListener, reviewing typecasting, selectors
