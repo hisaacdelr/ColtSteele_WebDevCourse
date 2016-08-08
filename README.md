@@ -3,11 +3,24 @@
 
 Collection of coursework I've done from Colt Steele's Udemy Web Development course
 
+##Projects
+
+- **Color Game**: 
+
+>Guess the given color among a number of squares. Easy & Hard difficulty are available.
+
+_Concepts Used:_ [HTML] divs and spans, buttons; [CSS] specificity, transitions, displays (inline-block, none, block); [JS] object listeners, style manipulation, array manipulation, ternary operator, selectors,
+
+_Improvements to Make:_ build in Module Design Pattern (to avoid namespace collisions), score counter, declare square as objects?
+
+---------
+##Concepts & Exercises
+
 ###HTML & CSS
 
 - [x] Pokemon Data Tables exercise
 - [x] CSS Selector exercise
-- [x] Tic Tac Toe CSS exercise
+- [x] Tic Tac Toe Grid CSS exercise
 - [x] Photo Grid CSS exercise
 - [x] Photo Grid Bootstrap exercise
 - [x] Blog Post CSS exercise
