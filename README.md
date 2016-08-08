@@ -5,13 +5,7 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 
 ##Projects
 
-- **Color Game**: 
-
->Guess the given color among a number of squares. Easy & Hard difficulty are available.
-
-_Concepts Used:_ [HTML] divs and spans, buttons; [CSS] specificity, transitions, displays (inline-block, none, block); [JS] object listeners, style manipulation, array manipulation, ternary operator, selectors,
-
-_Improvements to Make:_ build in Module Design Pattern (to avoid namespace collisions), score counter, declare square as objects?
+- [Color Game] (/Projects/ColorGame)
 
 ---------
 ##Concepts & Exercises
