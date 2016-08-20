@@ -35,3 +35,7 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [x] Selector Exercise
 - [x] Adding Listeners (.addElementListener)
 - [x] Score Keeper, using .addEventListener, reviewing typecasting, selectors
+
+###jQuery
+- [x] Selector Exercise
+- [x] jQuery Methods

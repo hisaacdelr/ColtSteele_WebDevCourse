@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Methods</title>
+	<script src="../jquery-3.1.0.min.js"></script>
+
+	<style type="text/css">
+		.correct{
+			color: green;
+		}
+
+		.wrong{
+			color: red;
+			background: pink;
+		}
+
+		.done{
+			color: gray;
+			text-decoration: line-through;
+		}
+	</style>
+</head>
+<body>
+	<h1>jQuery Methods Demo Page</h1>
+	<input type="text" placeholder="your name">
+	<ul>
+		<li>Skittles</li>
+		<li>Starburst</li>
+		<li>Twix</li>
+	</ul>
+
+	<select name="" id="">
+		<option value="ostrich">ostrich</option>
+		<option value="turtle">turtle</option>
+		<option value="toad">toad</option>
+	</select>
+
+	<h2>Objectives</h2>
+	<ul>
+		<li>val()</li>
+		<p>Checks the value of inputs ($("input").val() can check contents of a text box</p>
+		<li>text()</li>
+		<p>HTML safe</p>
+		<li>attr()</li>
+		<p>$("img").attr("src", "https://s-media-cache-ak0.pinimg.com/564x/0f/16/4b/0f164b264291617ff04b9f6dcde974f6.jpg") change picture in the bottom</p>
+		<li>html()</li>
+		<p>Can be used to look at what's inside a pair of html tags, equivalent to .innerHTML in Vanilla JS</p>
+		<li>addClass()</li>
+		<p>adds a passed class to html tags (.addClass("correct") adds "correct" class</p>
+		<li>removeClass()</li>
+		<p>removes the passed class from html tags</p>
+		<li>toggleClass()</li>
+		<p>adds if passed class isn't applied, removes if it is. $("li").toggleClass("done")</p>
+
+		<p>.last() method: takes the last object got by the selector $("li").last() gets the last li</p>
+	</ul>
+
+	<img src="http://i.imgur.com/zvANQeG.jpg" alt="">
+</body>
+</html>

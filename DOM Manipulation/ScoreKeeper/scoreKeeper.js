@@ -10,11 +10,13 @@ var p1Score = 0;
 var p2Score = 0;
 
 var gameOver = false;
-var winningScore = 5;
+var winningScore = 5; //initial winning score
 
 var limitDisplay = document.getElementById("limit");
 limitDisplay.textContent = winningScore;
 
+//when the user clicks on the p1/p2 buttons,
+//it adds points to their respective scores
 p1Button.addEventListener("click", function(){
 	if(!gameOver){
 		p1Score++;
