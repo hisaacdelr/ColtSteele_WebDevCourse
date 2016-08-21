@@ -6,4 +6,4 @@ _Concepts Used:_ [HTML] classes; [CSS] import external fonts;
 
 ##Screenshots
 
-![Blog Post Screenshot](https://github.com/cecdelr/ColtSteele_WebDevCourse/blob/master/Projects/BlogPost/img1.png)
+![Blog Post Screenshot](https://raw.githubusercontent.com/cecdelr/ColtSteele_WebDevCourse/master/BlogPost/img1.png)
