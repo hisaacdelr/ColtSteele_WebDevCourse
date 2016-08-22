@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Events</title>
+	<script src="jquery-3.1.0.min.js"></script>
+</head>
+<body>
+	<h1>jQuery Events</h1>
+
+	<input type="text">
+
+	<button>Don't Click Me</button>
+	<button>Seriously Don't Click Me</button>
+	<button>This is your final warning</button>
+
+	<hr>
+	<h1>Concepts Learned</h1>
+	<ul>
+		<li>.click()</li>
+		<p>In Vanilla Javascript, same as adding addEventListener(click, ~~~~)</p>
+		<code>$("button").click(function(){
+  var text = $(this).text();
+  console.log("You clicked" + text);
+});</code>
+		<code>$("button").click(function(){
+  $(this).css("background", "pink");
+});</code>
+
+		<li>.keypress()</li>
+		<p>adds a keypress listener to events</p>
+		<p>different from keydown and keyup, read stackoverflow for specific differences</p>
+		<code>$("input[type=text]").keypress(function(event){
+  if(event.which === 13){
+    alert("you hit enter");  }
+});</code>
+
+		<li>.on()</li>
+		<p>behaves similarly as .addEventListener</p>
+		<code>$("button").on("mouseleave", function(){
+  $(this).css("font-weight", "normal");
+});</code>
+		<code>$("h1").on("click", function(){
+  $(this).css("color", "purple");
+});</code>
+
+		<p>Difference between click() and on(click):</p>
+		<li>.click() only adds listeners for existing elements</li>
+		<li>on() will add listeners for all potential future elements</li>
+	</ul>
+</body>
+</html>
