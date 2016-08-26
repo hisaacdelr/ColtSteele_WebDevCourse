@@ -1,10 +1,89 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body{
+	font-family: Roboto;
+	background: #5C258D; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        
+
+}
+
+h1{
+	background: #2980B9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.fa-plus{
+	float: right;
+}
+
+li{
+	background: #FFFFFF;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n){
+	background: #F7F7F7;
+}
+input{
+	font-size: 18px;
+	color: #2980B9;
+	background: #F7F7F7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box; /*includes border, but not margin, width=100% only accounted for content, putting this includes content + padding*/
+	border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus{
+	background: white;
+	border: 3px solid #2980B9;
+	outline: none;
+}
+
 #container{
 	width: 360px;
-	margin: auto;
-	border: 1px solid gray;
+	margin: 100px auto;
+	background: #F7F7F7;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .completed{
 	color: gray;
 	text-decoration: line-through;
+}
+
+span{
+	background: #E74C3C;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+}
+
+span:hover{
+	
 }
