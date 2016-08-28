@@ -8,7 +8,11 @@ _Improvements to Make:_ build in Module Design Pattern (to avoid namespace colli
 
 ##Screenshots
 
+###Hard Mode Default Screen
 ![Hard Mode Default Screen](https://github.com/cecdelr/ColtSteele_WebDevCourse/blob/master/Projects/ColorGame/Screenshot/img1.png)
+###Easy Mode Default Screen
 ![Easy Mode Default Screen](https://github.com/cecdelr/ColtSteele_WebDevCourse/blob/master/Projects/ColorGame/Screenshot/img2.png)
+###Easy Mode Win Screen
 ![Easy Mode Win Screen](https://github.com/cecdelr/ColtSteele_WebDevCourse/blob/master/Projects/ColorGame/Screenshot/img3.png)
+###Hard Mode Win Screen
 ![Hard Mode Win Screen](https://github.com/cecdelr/ColtSteele_WebDevCourse/blob/master/Projects/ColorGame/Screenshot/img4.png)
