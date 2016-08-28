@@ -2,6 +2,7 @@
 
 body{
 	font-family: Roboto;
+	/*from http://uigradients.com/*/
 	background: #5C258D; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #5C258D , #4389A2); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to left, #5C258D , #4389A2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -80,6 +81,7 @@ span{
 }
 
 li:hover span{
+	/*when you hover over li, affects span*/
 	width: 40px;
 	opacity: 1;
 }
