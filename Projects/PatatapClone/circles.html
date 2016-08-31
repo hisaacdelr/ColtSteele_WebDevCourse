@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Circles</title>
+
+	<link rel="stylesheet" href="canvas.css">
+	<script type="text/javascript" src="paper-full.js"></script>
+	<script type="text/paperscript" canvas="myCanvas">
+	// Create a Paper.js Path to draw a line into it:
+	
+	var center = new Point(30, 30);
+	var x = 0;
+	var y = 0;
+
+	for(var row = 0; row < 10; row++){
+		for(var col = 0; col < 5; col++){
+			var circle = new Path.Circle(new Point(x + (row * 100), y + (col * 100)), 20);
+			circle.fillColor = 'rgb(' + 0 + ', ' + (10+(row * 20)) + ', ' + (10+(row * 20)) +')';
+		}
+	}
+	</script>
+</head>
+<body>
+	<canvas id="myCanvas" resize></canvas>
+</body>
+</html>
