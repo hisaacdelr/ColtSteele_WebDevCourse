@@ -1,0 +1,14 @@
+{
+  "name": "express-exercise",
+  "version": "1.0.0",
+  "description": "Practice creating Express apps and routes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Del Rosario",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
