@@ -8,6 +8,7 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 
 - [Color Game] (/Projects/ColorGame)
 - [To-Do List] (/Projects/ToDoList)
+- [Patatap Clone] (/Projects/PatatapClone)
 
 ---------
 ##Concepts & Exercises

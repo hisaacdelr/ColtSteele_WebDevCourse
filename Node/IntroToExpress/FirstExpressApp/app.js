@@ -28,6 +28,7 @@ app.get("/r/:subredditName", function(req, res){
 
 app.get("/r/:subredditName/comments/:id/:title", function(req, res){
 	//req.params would now have variables for 'subredditName', 'id', and 'title'
+	console.log(req.params);
 	res.send("Welcome to the comments page");
 });
 
