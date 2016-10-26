@@ -10,4 +10,4 @@ _Improvements to Make:_ separate out script tags in HTML to different Javascript
 ##Screenshots
 
 ###Multiple Keys Pressed
-![Multiple Keys Pressed](https://github.com/cecdelr/ColtSteele_WebDevCourse/blob/master/Projects/PatatapCLone/screenshots/img1.png)
+![Multiple Keys Pressed](https://raw.githubusercontent.com/cecdelr/ColtSteele_WebDevCourse/master/Projects/PatatapClone/screenshots/img1.png)
