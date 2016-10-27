@@ -1,7 +1,17 @@
+<% include partials/header %>
+
 <h1>You fell in love with: <%= thingVar %></h1>
 
-<% if(thingVar.toLowerCase() === "rusty"){ %>
+<!-- No equals sign. Equals sign will take the return value and display.
+	No equals sign just runs the code. -->
+
+
+<%if(thingVar.toLowerCase() === "rusty"){ %>
 	<p>Good choice!</p>
+<% } else { %>
+	<p>Bad Choice. You should have said "Rusty".</p>
 <% } %>
 
 <p>P.S. this is the love.ejs file</p>
+
+<% include partials/footer %>
