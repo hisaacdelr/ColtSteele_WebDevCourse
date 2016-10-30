@@ -7,3 +7,9 @@ friends.forEach(function(friend){
 <%
 });
 %>
+
+<form action="/addFriend" method="POST">
+	<input type="text" placeholder="Name" name="newFriend">
+	<!--"name" is the key look it up by inside the route-->
+	<button>I made a new friend!</button>
+</form>
