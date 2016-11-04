@@ -1,6 +1,6 @@
 # The Web Developer Bootcamp
 ## Colt Steele's Udemy Course
-![Progress](http://progressed.io/bar/65)
+![Progress](http://progressed.io/bar/70)
 
 Collection of coursework I've done from Colt Steele's Udemy Web Development course
 
@@ -9,6 +9,7 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [Color Game] (/Projects/ColorGame)
 - [To-Do List] (/Projects/ToDoList)
 - [Patatap Clone] (/Projects/PatatapClone)
+- [YelpCamp] (/Projects/YelpCamp)
 
 ---------
 ##Concepts & Exercises
