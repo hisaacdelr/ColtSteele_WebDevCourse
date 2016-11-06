@@ -1,14 +1,31 @@
 <% include partials/header %>
 
-<h1>Campgrounds Page!</h1>
+<div class="container">
+	<header class="jumbotron">
+		<h1>Welcome to YelpCamp!</h1>
+		<p>View our handpicked campgrounds from all over the world!</p>
+	</header>
 
-<a href="/campgrounds/new">Add New Campground</a>
-
-<% campGrounds.forEach(function(camp){ %>
-	<div>
-		<h4><%= camp.name %></h4>
-		<img src="<%=camp.image%>" alt="<%=camp.name%>">
+	<div class="row">
+		<div class="col-lg-12">
+			<h3>Our Most Popular Campgrounds!</h3>
+		</div>
 	</div>
-<% }); %>
+	<a href="/campgrounds/new">Add New Campground</a>
+	
+	<!--flex-wrap works differently in Safari-->
+	<div class="row text-center" style="display: flex; flex-wrap: wrap;">
+		<% campGrounds.forEach(function(camp){ %>
+			<div class="col-md-3 col-sm-6">
+				<div class="thumbnail">
+					<img src="<%=camp.image%>" alt="<%=camp.name%>">
+					<div class="caption">
+						<h4><%= camp.name %></h4>
+					</div>
+				</div>
+			</div>
+		<% }); %>
+	</div>
+</div>
 
 <% include partials/footer %>
