@@ -32,7 +32,7 @@ app.get("/campgrounds", function(req, res){
 })
 
 app.post("/campgrounds", function(req, res){
-	//get data from form and add to campground array
+	//get data from form and add to campground array (database later)
 
 	var name = req.body.name; //from campgrounds/new
 	var image = req.body.image;
