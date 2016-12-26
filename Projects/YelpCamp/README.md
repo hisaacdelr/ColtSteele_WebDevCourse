@@ -1,5 +1,5 @@
 #YelpCamp
 
-##Using Yelp's API, this application aggregates a list of camp grounds near a location you give.
+##Add and view campgrounds using a database
 
 ###Currently in-progress!
