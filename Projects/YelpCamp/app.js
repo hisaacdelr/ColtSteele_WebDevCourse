@@ -12,15 +12,17 @@ app.set("view engine", "ejs");
 //how each campground is set up
 var campgroundSchema = new mongoose.Schema({
 	name: String,
-	image: String
+	image: String,
+	description: String
 });
 //set up model
 var Campground = mongoose.model("Campground", campgroundSchema);
 
 // Campground.create(
 // 	{
-// 		name: "Woodland Park Zoo", 
-// 		image: "https://s3-media1.fl.yelpcdn.com/bphoto/Eoeekwd6uKq-Jpm-_dwhEA/90s.jpg"
+// 		name: "Fam Camp", 
+// 		image: "https://farm3.staticflickr.com/2311/2123340163_af7cba3be7.jpg",
+// 		description: "This is a fam friendly camp."
 // 	}, function(err, campground){
 // 		if(err){
 // 			console.log(err);
@@ -35,17 +37,19 @@ app.get("/", function(req, res){
 	res.render("landing");
 });
 
+//INDEX - show all campgrounds
 app.get("/campgrounds", function(req, res){
 	//Get all campgrounds from DB
 	Campground.find({}, function(err, allcampgrounds){
 		if(err){
 			console.log(err);
 		} else {
-			res.render("campgrounds", {campgrounds: allcampgrounds});
+			res.render("index", {campgrounds: allcampgrounds});
 		}
 	});
 })
 
+//CREATE - create new campgrounds
 app.post("/campgrounds", function(req, res){
 	//get data from form and add to campground array (database later)
 
@@ -59,14 +63,29 @@ app.post("/campgrounds", function(req, res){
 			console.log(err);
 		} else {
 			//redirect back to campgrounds page
-			res.redirect("/campgrounds");
+			res.redirect("/index");
 		}
 	})
 
 });
 
+//NEW - show form to create new campground
 app.get("/campgrounds/new", function(req, res){
 	res.render("new");
+});
+
+
+//SHOW - shows more info about one campground
+app.get("/campgrounds/:id", function(req, res){
+	//find campground with provided ID
+	Campground.findById(req.params.id, function(err, foundCampground){
+		if(err){
+			console.log(err);
+		} else {
+			//render show template with that campground
+			res.render("show", {camp: foundCampground});
+		}
+	});
 });
 
 app.listen("3000", function(){
