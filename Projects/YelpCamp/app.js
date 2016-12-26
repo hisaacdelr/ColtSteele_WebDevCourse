@@ -55,7 +55,8 @@ app.post("/campgrounds", function(req, res){
 
 	var name = req.body.name; //from campgrounds/new
 	var image = req.body.image;
-	var newCampground = {name: name, image: image};
+	var desc = req.body.description;
+	var newCampground = {name: name, image: image, description: desc};
 
 	//Create a new campground and save to DB
 	Campground.create(newCampground, function(err, newlyCreated){
@@ -63,7 +64,7 @@ app.post("/campgrounds", function(req, res){
 			console.log(err);
 		} else {
 			//redirect back to campgrounds page
-			res.redirect("/index");
+			res.redirect("/campgrounds");
 		}
 	})
 

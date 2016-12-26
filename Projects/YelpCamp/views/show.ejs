@@ -1,7 +1,9 @@
 <%include partials/header%>
 
-<h1>This is the show template!</h1>
+<h1><%= camp.name %></h1>
 
-<p><%= camp.name %></p>
+<img src="<%= camp.image %>" alt="<%= camp.name%>">
+
+<p><%= camp.description %></p>
 
 <%include partials/footer%>
