@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+
+<div class="ui main text container segment">
+	<div class="ui huge header">NEW BLOG</div>
+
+	<form class="ui form"action="/blogs" method="POST"><!--blog[] create a pseudo array called 'blog' that has a title, image, and body atttribute-->
+		<div class="field">
+			<label>Title</label>
+			<input type="text" name="blog[title]" placeholder="Title">
+		</div>
+		<div class="field">
+			<label>Image</label>
+			<input type="text" name="blog[image]" placeholder="Image">
+		</div>
+		<div class="field">
+			<label>Blog Content</label>
+			<textarea name="blog[body]"></textarea>
+		</div>
+		
+		<input class="ui violet basic button" type="submit">
+	</form>
+</div>
+
+<% include ./partials/footer %>

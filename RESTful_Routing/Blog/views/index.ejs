@@ -1,10 +1,16 @@
-<h1>Index page!</h1>
+<% include ./partials/header %>
 
-<% blogs.forEach(function(blog){ %>
-	<div>
-		<h2><%= blog.title%></h2>
-		<img src="<%= blog.image %>"></img>
-		<span><%= blog.created%></span>
-		<p><%= blog.body%></p>
-	</div>
-<% }) %>
+<div class="ui main text container segment">
+	<h1>Index page!</h1>
+
+	<% blogs.forEach(function(blog){ %>
+		<div>
+			<h2><%= blog.title%></h2>
+			<img class="ui fluid image" src="<%= blog.image %>"></img>
+			<span><%= blog.created%></span>
+			<p><%= blog.body%></p>
+		</div>
+	<% }) %>
+</div>
+
+<% include ./partials/footer %>
