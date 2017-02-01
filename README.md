@@ -6,10 +6,11 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 
 ##Projects
 
-- [Color Game] (/Projects/ColorGame)
-- [To-Do List] (/Projects/ToDoList)
-- [Patatap Clone] (/Projects/PatatapClone)
-- [YelpCamp] (/Projects/YelpCamp)
+- [Color Game](/Projects/ColorGame)
+- [To-Do List](/Projects/ToDoList)
+- [Patatap Clone](/Projects/PatatapClone)
+- [YelpCamp](/Projects/YelpCamp)
+- [RESTful Blog](/Projects/RESTfulBlog)
 
 ---------
 ##Concepts & Exercises
