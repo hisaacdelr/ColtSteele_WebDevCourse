@@ -1,0 +1,17 @@
+<% include ./partials/header %>
+
+<div class="ui main text container segment">
+	<h1>Index page!</h1>
+
+	<% blogs.forEach(function(blog){ %>
+		<div>
+			<h2><%= blog.title%></h2>
+			<img class="ui fluid image" src="<%= blog.image %>"></img>
+			<span><%= blog.created%></span>
+			<p><%- blog.body.substring(0,101) %>...</p>
+			<a href="/blogs/<%= blog._id %>">Read More</a>
+		</div>
+	<% }) %>
+</div>
+
+<% include ./partials/footer %>
