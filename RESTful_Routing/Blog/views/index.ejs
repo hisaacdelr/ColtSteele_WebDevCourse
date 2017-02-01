@@ -8,7 +8,8 @@
 			<h2><%= blog.title%></h2>
 			<img class="ui fluid image" src="<%= blog.image %>"></img>
 			<span><%= blog.created%></span>
-			<p><%= blog.body%></p>
+			<p><%- blog.body.substring(0,101) %>...</p>
+			<a href="/blogs/<%= blog._id %>">Read More</a>
 		</div>
 	<% }) %>
 </div>

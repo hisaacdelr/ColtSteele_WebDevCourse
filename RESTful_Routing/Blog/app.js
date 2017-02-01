@@ -57,6 +57,16 @@ app.post("/blogs", function(req, res){
 	});
 });
 
+//SHOW ROUTE
+app.get("/blogs/:id", function(req, res){
+	Blog.findById(req.params.id, function(err, foundBlog){
+		if(err){
+			res.redirect("/");
+		} else {
+			res.render("show", {blog: foundBlog});
+		}
+	});
+})
 
 app.listen("3000", function(){
 	console.log("Blog running on server 3000");
