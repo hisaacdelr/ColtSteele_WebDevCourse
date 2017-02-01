@@ -1,0 +1,24 @@
+<% include ./partials/header %>
+
+<div class="ui main text container segment">
+	<div class="ui huge header">Edit <%= blog.title %></div>
+
+	<form class="ui form"action="/blogs/<%= blog._id %>?_method=PUT" method="POST"><!--blog[] create a pseudo array called 'blog' that has a title, image, and body atttribute, ?_method=PUT because HTML doesnt support PUT methods so we're using a method override (workaround with express) OVERRIDES THE ORIGINAL METHOD INTO THIS ONE W UNDERSCORE-->
+		<div class="field">
+			<label>Title</label>
+			<input type="text" name="blog[title]" placeholder="Title" value="<%= blog.title %>">
+		</div>
+		<div class="field">
+			<label>Image</label>
+			<input type="text" name="blog[image]" placeholder="Image" value="<%= blog.image %>">
+		</div>
+		<div class="field">
+			<label>Blog Content</label>
+			<textarea name="blog[body]"><%= blog.body %></textarea>
+		</div>
+		
+		<input class="ui violet basic button" type="submit">
+	</form>
+</div>
+
+<% include ./partials/footer %>
