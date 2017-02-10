@@ -12,8 +12,12 @@
 
 			</div>
 			<div class="description">
-				<p><%- blog.body%></p>	<!--What the - does is it takes blog.body and evaluates it as code-->			
+				<p><%- blog.body%></p>	<!--What the - does is it takes blog.body and evaluates it as code-->
 			</div>
+			<a class="ui orange basic button" href="/blogs/<%= blog._id %>/edit">Edit</a>
+			<form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+				<button class="ui red basic button">Delete</button>
+			</form>
 		</div>
 	</div>
 
