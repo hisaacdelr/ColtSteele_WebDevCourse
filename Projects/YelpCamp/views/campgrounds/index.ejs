@@ -1,9 +1,10 @@
-<% include partials/header %>
+<% include ../partials/header %>
 
 <div class="container">
 	<header class="jumbotron">
 		<h1>Welcome to YelpCamp!</h1>
 		<p>View our handpicked campgrounds from all over the world!</p>
+		<a href="/campgrounds/new" class="btn btn-primary">Add New Campground</a>
 	</header>
 
 	<div class="row">
@@ -11,7 +12,6 @@
 			<h3>Our Most Popular Campgrounds!</h3>
 		</div>
 	</div>
-	<a href="/campgrounds/new">Add New Campground</a>
 	
 	<!--flex-wrap works differently in Safari-->
 	<div class="row text-center" style="display: flex; flex-wrap: wrap;">
@@ -31,4 +31,4 @@
 	</div>
 </div>
 
-<% include partials/footer %>
+<% include ../partials/footer %>
