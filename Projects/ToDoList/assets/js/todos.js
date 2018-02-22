@@ -2,6 +2,7 @@
 //use .on() as opposed to $("li").click(function(){})... because that only creates
 //listeners to already existing lis and doesn't account for
 //lis created in the future
+// $("li").click(function(){
 $("ul").on("click", "li", function(){
 	//if li is gray
 	// if($(this).css("color") === "rgb(128, 128, 128)"){ //use rbg color not "gray"
@@ -27,7 +28,7 @@ $("ul").on("click", "span", function(event){
 	$(this).parent().fadeOut(500, function(){
 		$(this).remove();
 	});
-	event.stopPropagation(); //stops event bubbling, 
+	event.stopPropagation(); //stops event bubbling,
 							 //in this case, stops from triggering parent element click (the strikethrough when you click the li)
 });
 
