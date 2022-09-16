@@ -4,7 +4,7 @@
 
 Collection of coursework I've done from Colt Steele's Udemy Web Development course
 
-##Projects
+## Projects
 
 - [Color Game](/Projects/ColorGame)
 - [To-Do List](/Projects/ToDoList)
@@ -13,9 +13,9 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - [RESTful Blog](/Projects/RESTfulBlog)
 
 ---------
-##Concepts & Exercises
+## Concepts & Exercises
 
-###HTML & CSS
+### HTML & CSS
 
 - Pokemon Data Tables exercise
 - CSS Selector exercise
@@ -25,8 +25,8 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - Blog Post CSS exercise
 - Landing Page Bootstrap exercise
 
-###Javascript
-*Many solutions to the exercises can be seen by opening the browser console*
+### Javascript
+* Many solutions to the exercises can be seen by opening the browser console*
 - Prompt Exercise using prompt() and console.log()
 - For Loop Exercises
 - While Loop Exercises
@@ -35,17 +35,17 @@ Collection of coursework I've done from Colt Steele's Udemy Web Development cour
 - Array Problem Set
 - Movie Database, practice with creating Objects
 
-####Interacting with the DOM
+#### Interacting with the DOM
 - Intro to Selectors (.getElementById, .getElementByTagName, .querySelector, etc.)
 - Selector Exercise
 - Adding Listeners (.addElementListener)
 - Score Keeper, using .addEventListener, reviewing typecasting, selectors
 
-###jQuery
+### jQuery
 - Selector Exercise
 - jQuery Methods
 
-###Node.js
+### Node.js
 *Instead of using C9 as Colt recommended, I create my projects locally*
 - Intro to the Command Line
 - Intro to NPM (using simple npm packages catMe & faker)
